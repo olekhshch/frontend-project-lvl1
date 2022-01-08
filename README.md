@@ -3,4 +3,4 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
-![example workflow](https://github.com/olekhshch/frontend-project-lvl1/actions/workflows/my-check.yml/badge.svg)
+![example workflow](https://github.com/github/frontend-project-lvl1/actions/workflows/my-check.yml/badge.svg)
