@@ -1,0 +1,10 @@
+name: my-check
+
+on: push
+
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: linting
+      - run: make lint
