@@ -5,10 +5,10 @@ const isEven = () => {
   const userName = readline.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  let iteration = 0;  
+  let iteration = 0;
   let mistake = false;
-  while (iteration < 3 && mistake === false) {  
-  const number = randomizer(10);
+  while (iteration < 3 && mistake === false) {
+    const number = randomizer(10);
     let supposedAnswer = 'yes';
     let wrongAnswer = 'no';
     if (number % 2 !== 0) {
