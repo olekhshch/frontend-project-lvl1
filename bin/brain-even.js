@@ -1,3 +1,5 @@
-import isEven from "../src/gamefiles/isEven";
+#!/usr/bin/env node
+
+import isEven from "../src/gamefiles/isEven.js";
 
 isEven();
