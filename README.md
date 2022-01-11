@@ -5,4 +5,5 @@
 
 ![example workflow](https://github.com/olekhshch/frontend-project-lvl1/actions/workflows/my-check.yml/badge.svg)
 
-Asciinema link: https://asciinema.org/a/VZ0BpzNa8588sxTgLowTn72m0
+brain-even demonstration: https://asciinema.org/a/VZ0BpzNa8588sxTgLowTn72m0
+brain-calc demonstration: https://asciinema.org/a/Z2n0GRGlw0qRzSrHXGkaKAFVn
