@@ -19,8 +19,8 @@ export default () => {
   let i = 0;
   let mistake = false;
   while (i < 3 && mistake === false) {
-    const num1 = randomizer(50);
-    const num2 = randomizer(30);
+    const num1 = randomizer(0, 50);
+    const num2 = randomizer(0, 30);
     const expected = gcd(num1, num2);
     console.log(`Question: ${num1} ${num2}`);
     const answer = readline.question('Your answer: ');

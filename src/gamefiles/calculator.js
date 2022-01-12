@@ -1,9 +1,9 @@
 import readline from 'readline-sync';
-import randomize, { rand } from '../randomizer.js';
+import randomizer from '../randomizer.js';
 import greeting from '../cli.js';
 
 const mathematics = (a, b, operator) => {
-  let res = a + b;
+  let res = 0;
   switch (operator) {
     case '-':
       res = a - b;
@@ -11,6 +11,8 @@ const mathematics = (a, b, operator) => {
     case '*':
       res = a * b;
       break;
+    default :
+      res = a + b;
   }
   return res;
 };
@@ -22,11 +24,11 @@ const calc = () => {
   let mistake = false;
   const operations = ['+', '-', '*'];
   while (iteration < 3 && mistake === false) {
-    const operation = operations[rand(3)];
-    const num1 = randomize(50);
-    let num2 = rand(50);
+    const operation = operations[randomizer(0, 2)];
+    const num1 = randomizer(0, 50);
+    let num2 = randomizer(0, 50);
     if (operation === '*') {
-      num2 = randomize(10);
+      num2 = randomizer(0, 10);
     }
     const expected = mathematics(num1, num2, operation);
     console.log(`Question: ${num1} ${operation} ${num2}`);

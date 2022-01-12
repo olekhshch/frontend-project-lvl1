@@ -8,7 +8,7 @@ const isEven = () => {
   let iteration = 0;
   let mistake = false;
   while (iteration < 3 && mistake === false) {
-    const number = randomizer(10);
+    const number = randomizer(1, 10);
     let supposedAnswer = 'yes';
     let wrongAnswer = 'no';
     if (number % 2 !== 0) {
