@@ -1,5 +1,6 @@
 import readline from 'readline-sync';
 import randomize, { rand } from '../randomizer.js';
+import greeting from '../cli.js';
 
 const mathematics = (a, b, operator) => {
   let res = a + b;
@@ -15,8 +16,7 @@ const mathematics = (a, b, operator) => {
 };
 
 const calc = () => {
-  const userName = readline.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
+  const userName = greeting();
   console.log('What is the result of the expression?');
   let iteration = 0;
   let mistake = false;

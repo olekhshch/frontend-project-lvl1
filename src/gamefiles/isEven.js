@@ -1,9 +1,9 @@
 import readline from 'readline-sync';
 import randomizer from '../randomizer.js';
+import greeting from '../cli.js';
 
 const isEven = () => {
-  const userName = readline.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
+  const userName = greeting();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   let iteration = 0;
   let mistake = false;

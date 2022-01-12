@@ -1,5 +1,6 @@
 import readline from 'readline-sync';
 import randomizer from '../randomizer.js';
+import greeting from '../cli.js';
 
 const gcd = (num1, num2) => {
   const biggest = Math.min(num1, num2);
@@ -13,9 +14,7 @@ const gcd = (num1, num2) => {
 };
 
 export default () => {
-  console.log('Welcome to the Brain Games!');
-  const userName = readline.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
+  const userName = greeting();
   console.log('Find the greatest common divisor of given numbers.');
   let i = 0;
   let mistake = false;
