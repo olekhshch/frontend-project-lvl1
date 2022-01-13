@@ -23,11 +23,11 @@ const game = () => {
     const missingIndex = randomizer(0, length - 1);
     const expected = progr[missingIndex];
     let question = '';
-    for (const el of progr) {
-      if (el === expected) {
+    for (let n = 0; n < length; n += 1) {
+      if (progr[n] === expected) {
         question += '.. ';
       } else {
-        question += `${el} `;
+        question += `${progr[n]} `;
       }
     }
     console.log(`Question: ${question}`);
