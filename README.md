@@ -12,3 +12,5 @@ brain-calc demonstration: https://asciinema.org/a/Z2n0GRGlw0qRzSrHXGkaKAFVn
 brain-gcd demonstration: https://asciinema.org/a/9x3SOy8xo3SyLLDAHa8Pzdq35
 
 brain-progression demostration: https://asciinema.org/a/YRqUf4nMuhiealIWxRkFVnO9p
+
+brain-prime demonstration: https://asciinema.org/a/JMvzH3AmYNewriCqhRB9T0cKl

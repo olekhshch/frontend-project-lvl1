@@ -11,7 +11,7 @@ const mathematics = (a, b, operator) => {
     case '*':
       res = a * b;
       break;
-    default :
+    default:
       res = a + b;
   }
   return res;
